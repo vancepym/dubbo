@@ -188,6 +188,6 @@ Source Building
 10. Install the admin console:
 
     cd ~/dubbo/dubbo-admin
-    mvn jetty:run -Ddubbo.registry.address=zookeeper://127.0.0.1:2181
+    mvn tomcat7:run -Ddubbo.registry.address=zookeeper://127.0.0.1:2181
     http://root:root@127.0.0.1:8080
 
